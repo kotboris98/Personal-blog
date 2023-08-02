@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    background-color: #121212;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1.1em 2.1em;
+    border-radius: 3em;
+    transition: background-color 0.2s linear;
+
+    &--red {
+        background-color: #ed3024;
+        &:hover {
+            background-color: darken(#ed3024, 5%);
+        }
+    }
+
+    &--blue {
+        background-color: #3137c9;
+        &:hover {
+            background-color: darken(#3137c9, 5%);
+        }
+    }
+}
