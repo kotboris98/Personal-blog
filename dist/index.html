@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <title>Главная</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/scss/style.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div class="page">
+
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link subnav" href="#">Работы</a>
+                            <ul class="subnav__menu">
+                                <li>
+                                    <a class="subnav__link" href="#">Веб-страницы</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Браузерная игра</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Мобильное приложение</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <form class="search" action="/" method="post">
+                    <input class="search__input" type="text" placeholder="Поиск по сайту">
+                </form>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <img src="https://previews.123rf.com/images/karandaev/karandaev1608/karandaev160800369/62201490-desk-table-with-laptop-coffee-and-glasses-on-wooden-table-workplace-top-view-with-copy-space.jpg" alt="can't download photo">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" src="https://sun9-39.userapi.com/impg/IGnNiTdX_b0fVYl7sBMJQPPU5zAqWXx0qZskCw/9f4aRouBH4g.jpg?size=600x800&quality=95&sign=99844d69e1770e8ba25bf56bedb51c4d&type=album" 
+                    width="100%" alt="can't download photo">
+                    <div class="profile__name">Борис Тюков</div>
+                    <div class="profile__prof">Junior frontend разработчик</div>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="#"
+                            target="_blank">
+                            <img class="social__img" src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-1868978-1583142.png?f=webp">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#"
+                            target="_blank">
+                            <img class="social__img" src="https://pngicon.ru/file/uploads/vk-256x256.png">
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#"
+                            target="_blank">
+                            <img class="social__img" src="data:image/jpeg;base64,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">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile__text">
+                        Начинающий frontend-разработчик, проходил полугодовую стажировку от Ингосстраха, мой стек: HTML-5, CSS-3, JavaScript, TypeScript, Angular, Git.
+                        В процессе стажировки занимался версткой сайтов, разработкой браузерной игры и мобильного приложения.
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="#">Мои работы</a>
+                <button class="btn btn--blue" type="button">Написать мне</button>
+            </div>
+        </aside>
+        
+
+        <main class="main">
+            <div class="container">
+                
+                <div class="stories">
+                    <div class="stories__item">
+                        <img class="stories__preview" src="https://sun9-54.userapi.com/impg/W1LXry3-tgeAsPgflEHqHBVBSWqo4L7WRxhNVw/gqjOAS1A5Zk.jpg?size=600x800&quality=95&sign=f6abf8b351238f897e0d6e9ffa693773&type=album" 
+                        alt="" width="100%">
+                        <div class="stories__title">Полевой выезд</div>
+                        <time class="stories__date" datetime="2023-05-23">23.05.2023</time>
+                        
+                    </div>
+                    <div class="stories__item">
+                        <img class="stories__preview" src="https://sun9-78.userapi.com/impg/BK3ypU_I-z-TMYfoVjS8-Mf5Y6V4aU1JWMbA2Q/fWFiQvSz6SE.jpg?size=960x1280&quality=95&sign=21f90c8add426fa22510e754f723631c&type=album"
+                        alt="" width="100%">
+                        <div class="stories__title">Прогулка по Москве</div>
+                        <time class="stories__date" datetime="2023-06-06">06.06.2023</time>
+                    </div>
+                    <div class="stories__item">
+                        <img class="stories__preview" src="https://sun9-59.userapi.com/impg/pfdkrGkHCB1Vhk6pCnR2ExciXU7qIh5BtLfaCg/z2ID1k5A-aA.jpg?size=960x1280&quality=95&sign=2a5044ff5cf696cac6a165e79133f214&type=album"
+                        alt="" width="100%">
+                        <div class="stories__title">Выставка современного искусства</div>
+                        <time class="stories__date" datetime="2023-06-15">15.06.2023</time>
+                    </div>
+                    <div class="stories__item">
+                        <img class="stories__preview" src="https://sun9-79.userapi.com/impg/RjznmS3EHcUZ95q5PHWeBLVS6T8SZXiZijUXrw/X6betiZBXMk.jpg?size=960x1280&quality=95&sign=398d18e36f8cef801cc28492bfeac869&type=album"
+                        alt="" width="100%">
+                        <div class="stories__title">Панк-концерт</div>
+                        <time class="stories__date" datetime="2023-07-09">09.07.2023</time>
+                    </div>
+                </div>
+                
+                <div class="add-post">
+                    <form class="add-post__form" action="/" method="post">
+                        <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь"></textarea>
+                        <div class="add-post__form-actions">
+                            <label class="add-post__file" for="add-post-file">
+                                <input type="file" id="add-post-file">
+                            </label>
+                            <button class="add-post__send" type="submit">
+                                <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/send_circle_icon_136236.png" alt="отправить" width="100%">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html> 
